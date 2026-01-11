@@ -4,7 +4,7 @@ class FirstThread extends Thread {
     }
 
     public static void main(String[] args) {
-        SimpleThread t = new SimpleThread();
+        FirstThread t = new FirstThread();
         t.start();
     }
 }

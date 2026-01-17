@@ -1,0 +1,10 @@
+class ExtendingThread extends Thread {
+    public void run() {
+        System.out.println("We are going for our classes");
+    }
+
+    public static void main(String[] args) {
+        MyThread t = new MyThread();
+        t.start();
+    }
+}

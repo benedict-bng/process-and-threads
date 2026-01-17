@@ -1,0 +1,14 @@
+class GameAction implements Runnable
+{
+    public void run()
+    {
+        System.out.println(“The game just went Halftime”);
+    }
+
+    public static void main(String args[])
+    {
+        GameAction action = new GameAction();
+        Thread playerThread = new Thread(action);
+        playerThread.start();
+    }
+}

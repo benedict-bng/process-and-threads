@@ -1,4 +1,4 @@
-class ExtendingThread extends Thread
+class GameThread extends Thread
 {
     public void run()
     {
